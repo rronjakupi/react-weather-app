@@ -1,0 +1,248 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.weather-container {
+  width: 70%;
+  height: 65vh;
+  float: right;
+  background-color: #25416677;
+}
+
+.location-container {
+  width: 100%;
+  height: 10vh;
+  background-color: #254166;
+  border-radius: 2px;
+  display: flex;
+  position: relative;
+}
+
+.logo {
+  height: 7vh;
+  width: 3.5vw;
+  margin-top: 1.3%;
+  margin-left: 2%;
+}
+
+.logo2 {
+  height: 7vh;
+  width: 5vw;
+  margin-top: 1.3%;
+  margin-left: 2%;
+}
+
+.total-weather-report {
+  margin-left: 3%;
+  margin-top: 1.25%;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.location {
+  position: absolute;
+  left: 14.2%;
+  top: 22.5%;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.degree-container {
+  position: relative;
+  background-color: #254166;
+  border-radius: 5px;
+  height: 25vh;
+  width: 25%;
+  margin-left: 1.5%;
+  margin-top: 1.25%;
+}
+
+.weather-logo2 {
+  position: absolute;
+  height: 17.5vh;
+  margin-top: 10%;
+  margin-left: 5%;
+  opacity: 0.1;
+  filter: blur(3px);
+}
+
+.degree-value {
+  position: absolute;
+  font-size: 4rem;
+  padding-top: 15%;
+  padding-left: 27.5%;
+}
+
+.info-container {
+  position: relative;
+  background-color: #254166;
+  border-radius: 5px;
+  height: 26vh;
+  width: 25%;
+  margin-left: 1.5%;
+  margin-top: 1.25%;
+  text-align: center;
+}
+
+.local-weather-report {
+  font-size: 1rem;
+  padding-top: 5%;
+}
+
+.hr {
+  padding-top: 2.5%;
+  width: 85%;
+  margin: auto;
+  border-bottom: 1px solid white;
+}
+
+.sun-icon {
+  position: absolute;
+  height: 15vh;
+  left: 10%;
+  top: 25.5%;
+}
+
+.day {
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.weather-type {
+  position: absolute;
+  top: 42.5%;
+  left: 68%;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.observation-time {
+  position: absolute;
+  font-size: 1rem;
+  left: 63%;
+  top: 72.5%;
+}
+
+.last-observation {
+  position: absolute;
+  font-size: 0.6rem;
+  font-weight: lighter;
+  left: 62.5%;
+  top: 67.5%;
+}
+
+.visibility {
+  position: absolute;
+  background-color: #254166d7;
+  top: 17.5%;
+  left: 28%;
+  width: 23%;
+  height: 52.5vh;
+  border-radius: 4px;
+
+  .visibility-icon {
+    height: 10vh;
+    margin-left: 30%;
+    margin-top: 30%;
+  }
+
+  .visibility-value-text {
+    margin-left: 25%;
+    margin-top: 12.5%;
+    font-size: 1rem;
+  }
+
+  .visibility-value {
+    margin-top: 1%;
+    margin-left: 40%;
+  }
+}
+
+.wind {
+  position: absolute;
+  background-color: #254166d7;
+  top: 17.5%;
+  left: 52%;
+  width: 23%;
+  height: 52.5vh;
+  border-radius: 4px;
+
+  .wind-icon {
+    height: 10vh;
+    margin-left: 30%;
+    margin-top: 30%;
+  }
+
+  .wind-speet-text {
+    margin-top: 12.5%;
+    margin-left: 30%;
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  .wind-speed {
+    margin-top: 5%;
+    margin-left: 45%;
+  }
+
+  .wind-degree-text {
+    font-size: 1rem;
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-bottom: 0;
+  }
+
+  .wind-degree {
+    margin-top: 1%;
+    margin-left: 45%;
+  }
+
+  .wind-direction-text {
+    font-size: 1rem;
+    margin-left: 27.5%;
+    margin-top: 10%;
+    margin-bottom: 0;
+  }
+
+  .wind-direction {
+    margin-top: 1%;
+    margin-left: 45%;
+  }
+}
+
+.humidity {
+  position: absolute;
+  background-color: #254166d7;
+  top: 17.5%;
+  left: 76%;
+  width: 23%;
+  height: 52.5vh;
+  border-radius: 4px;
+
+  .humidity-icon {
+    height: 9vh;
+    margin-left: 34%;
+    margin-top: 34%;
+  }
+
+  .humidity-value-text {
+    margin-left: 25%;
+    margin-top: 12.5%;
+    font-size: 1rem;
+  }
+
+  .humidity-value {
+    margin-top: 5%;
+    margin-left: 42.5%;
+  }
+}
+
+.horizontal-line {
+  border-bottom: 1px solid white;
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 5%;
+}
